@@ -3,6 +3,7 @@
 header {
   height: 81px;
   background: var(--white);
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -28,4 +29,43 @@ header {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+  overflow-y: auto;
+  max-height: calc(100vh - 101px);
+  width: 250px;
+}
+
+.sidebar-menu section {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-menu h6 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+.sidebar-menu a {
+  padding: 10px 20px;
+  background: var(--primary-light);
+  border-radius: 5px;
+  font-weight: 400;
+  transition: 0.7s;
+}
+
+.sidebar-menu a:hover {
+  transform: translateY(-6px);
+  font-weight: 700;
 }
