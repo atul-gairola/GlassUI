@@ -9,51 +9,78 @@
       src="https://kit.fontawesome.com/f2b1c35f46.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.4.0/build/styles/atom-one-dark.min.css"
+    />
     <link rel="stylesheet" href="./styles/documentation.css" />
   </head>
   <body>
-    <header>
-      <nav class="nav">
-        <a href="index.html">
-          <img
-            class="logo"
-            src="./assets/glassui-logo.svg"
-            alt="glassui-logo"
-          />
-        </a>
-        <div class="flex-gap"></div>
-        <a href="" class="btn documentation-button"> Documentation </a>
-        <a
-          href="https://github.com/atul-gairola/GlassUI"
-          class="btn github-button"
-        >
-          <i class="fab fa-github"></i>Github
-        </a>
-      </nav>
-    </header>
-    <main class="main" >
-      <aside class="sidebar-menu">
-        <section>
-          <h6>Getting started</h6>
-          <a href="#introduction" class="link">Introduction</a>
-        </section>
-        <section>
-          <h6>Components</h6>
-          <a href="#alert" class="link">Alert</a>
-          <a href="#avatar" class="link">Avatar</a>
-          <a href="#badge" class="link">Badge</a>
-          <a href="#button" class="link">Button</a>
-          <a href="#card" class="link">Card</a>
-          <a href="#image" class="link">Image</a>
-          <a href="#input" class="link">Input</a>
-          <a href="#list" class="link">List</a>
-          <a href="#navigation" class="link">Navigation</a>
-          <a href="#rating" class="link">Rating</a>
-        </section>
-      </aside>
-      <div>
+    <div class="wrapper">
+      <header>
+        <nav class="nav">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="./assets/glassui-logo.svg"
+              alt="glassui-logo"
+            />
+          </a>
+          <div class="flex-gap"></div>
+          <a href="" class="btn documentation-button"> Documentation </a>
+          <a
+            href="https://github.com/atul-gairola/GlassUI"
+            class="btn github-button"
+          >
+            <i class="fab fa-github"></i>Github
+          </a>
+        </nav>
+      </header>
+      <main class="main">
+        <aside class="sidebar-menu">
+          <section>
+            <h6>Getting started</h6>
+            <a href="#introduction" class="link">Introduction</a>
+          </section>
+          <section>
+            <h6>Components</h6>
+            <a href="#alert" class="link">Alert</a>
+            <a href="#avatar" class="link">Avatar</a>
+            <a href="#badge" class="link">Badge</a>
+            <a href="#button" class="link">Button</a>
+            <a href="#card" class="link">Card</a>
+            <a href="#image" class="link">Image</a>
+            <a href="#input" class="link">Input</a>
+            <a href="#list" class="link">List</a>
+            <a href="#navigation" class="link">Navigation</a>
+            <a href="#rating" class="link">Rating</a>
+          </section>
+        </aside>
+        <section class="content-section" id="introduction">
+          <h2>Introduction</h2>
+          <p class="intro">
+            Glass UI is a moder light weight glassmorphic UI component library
+            which provides you an easy and fast way to ship trendy looking
+            websites. Glassmorphism is a design style of making UI elements look
+            like frosted glass. We take away all your design worried when you
+            want to create someting a glass-morphic.
+          </p>
+          <section>
+            <h3>Quick Setup</h3>
+            <p>
+              The fastest way to use Glass UI components in your repository is
+              to copy and paste the code given below in the head of your html
+            </p>
 
-      </div>
-    </main>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2839%2C55%2C76%2C1%29&t=base16-dark&wt=none&l=javascript&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%252F%252F%2520copy%2520and%2520paste%2520this%2520in%2520the%2520head%2520of%2520your%2520html%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fglass-ui.netlify.app%252Fstyles%252Fcomponents.css%2522%253E%250A%2520%2520%2520%2520"
+              class="code"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </section>
+        </section>
+      </main>
+    </div>
   </body>
 </html>

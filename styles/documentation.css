@@ -1,5 +1,11 @@
 @import url("./global.css");
 
+.wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* header */
 header {
   height: 81px;
   background: var(--white);
@@ -9,7 +15,7 @@ header {
 .nav {
   padding: 20px;
   display: flex;
-  width: 100vw;
+  width: 100%;
   gap: 20px;
 }
 
@@ -31,11 +37,13 @@ header {
   gap: 10px;
 }
 
+/* main */
 .main {
   display: grid;
   grid-template-columns: auto 1fr;
 }
 
+/* sidebar */
 .sidebar-menu {
   display: flex;
   flex-direction: column;
@@ -53,7 +61,7 @@ header {
 }
 
 .sidebar-menu h6 {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   margin-bottom: 5px;
 }
 
@@ -68,4 +76,37 @@ header {
 .sidebar-menu a:hover {
   transform: translateY(-6px);
   font-weight: 700;
+}
+
+/* content */
+.content-section {
+  padding: 0 50px;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.content-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.intro {
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 2.1rem;
+}
+
+.content-section section {
+  margin: 30px 0;
+}
+
+.code {
+  width: 100%;
+  border: none;
+  margin-top: 50px;
+  height: 240px;
 }
