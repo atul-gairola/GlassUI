@@ -1,0 +1,31 @@
+@import url("./global.css");
+
+header {
+  height: 81px;
+  background: var(--white);
+}
+
+.nav {
+  padding: 20px;
+  display: flex;
+  width: 100vw;
+  gap: 20px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.flex-gap {
+  flex-grow: 1;
+}
+
+.github-button {
+  font-size: 1rem;
+  font-weight: 600;
+  background: var(--primary-light);
+  color: var(--secondary);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
