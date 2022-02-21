@@ -3,10 +3,10 @@
 
 /* Global styles */
 :root {
-  --primary: #2f6ed3 !important;
-  --primary-light: #f1f7ff !important;
-  --secondary: #27374c !important;
-  --secondary-light: #5842c4 !important;
+  --primary: #2f6ed3;
+  --primary-light: #f1f7ff;
+  --secondary: #27374c;
+  --secondary-light: #5842c4;
   --black: #111111;
   --white: #fff;
   --danger: #ef5350;
