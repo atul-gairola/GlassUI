@@ -1,0 +1,42 @@
+.icon-badge {
+  position: relative;
+  font-size: 2rem;
+}
+
+.avatar-badge {
+  position: relative;
+  font-size: 2rem;
+  width: fit-content;
+}
+
+.badge {
+  border-radius: 50%;
+  border: 2px solid var(--white);
+  padding: 5px;
+  background: var(--info);
+  position: absolute;
+  top: 0;
+  font-size: 0.5rem;
+  right: 0;
+}
+
+.badge-red {
+  background: var(--danger);
+}
+
+.badge-green {
+  background: var(--success);
+}
+
+.badge-yellow {
+  background: var(--warning);
+}
+
+.badge-text {
+  top: 0;
+  right: 0;
+  font-weight: 500;
+  font-size: 0.4rem;
+  color: var(--white);
+  padding: 2;
+}

@@ -129,3 +129,11 @@ header {
   padding-bottom: 0;
   width: 100%;
 }
+
+.icon-badges-container {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+  justify-content: center;
+}
