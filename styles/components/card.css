@@ -7,6 +7,7 @@
   border-radius: var(--border-rds);
   padding: 20px;
   max-width: 300px;
+  position: relative;
 }
 
 .card-horizontal {
@@ -82,4 +83,19 @@
 
 .card-horizontal.card-text-only .card-footer {
   position: static;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: var(--border-rds);
 }
