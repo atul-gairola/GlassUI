@@ -15,9 +15,9 @@
   padding: 5px;
   background: var(--info);
   position: absolute;
-  top: 0px;
+  top: 0;
   font-size: 0.5rem;
-  right: 0px;
+  right: 0;
 }
 
 .badge-red {
@@ -33,10 +33,10 @@
 }
 
 .badge-text {
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
   font-weight: 500;
   font-size: 0.4rem;
   color: var(--white);
-  padding: 2px;
+  padding: 2;
 }
