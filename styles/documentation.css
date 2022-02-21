@@ -107,6 +107,10 @@ header {
   line-height: 2.1rem;
 }
 
+.info {
+  margin-bottom: 1.875rem;
+}
+
 .content-section section {
   margin: 1.8rem 0;
 }
