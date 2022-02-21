@@ -153,3 +153,9 @@ header {
   margin-bottom: 20px;
   justify-content: center;
 }
+
+.image-example-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
