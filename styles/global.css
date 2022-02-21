@@ -13,14 +13,9 @@
   --warning: #ff9800;
   --info: #03a9f4;
   --success: #4caf50;
-<<<<<<< HEAD
-  --border-rds: 20px;
-  --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
   --grey: #696969;
-=======
   --border-rds: 1.25rem;
   --shadow: 0 0.5rem 2rem 0 rgba(31, 38, 135, 0.2);
->>>>>>> dev
 }
 
 * {
