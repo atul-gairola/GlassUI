@@ -1,0 +1,49 @@
+.btn {
+  cursor: pointer;
+  border-radius: var(--border-rds);
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  transition: 0.7s;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: var(--white);
+}
+
+.btn-danger {
+  background: var(--danger);
+  color: var(--white);
+}
+
+.btn-info {
+  background: var(--info);
+  color: var(--white);
+}
+
+.btn-warning {
+  background: var(--warning);
+  color: var(--white);
+}
+
+.btn-success {
+  background: var(--success);
+  color: var(--white);
+}
+
+.btn-glass {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  color: var(--black);
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:active {
+  filter: brightness(0.7);
+}
