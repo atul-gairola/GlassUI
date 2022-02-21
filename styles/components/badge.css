@@ -2,6 +2,13 @@
   position: relative;
   font-size: 2rem;
 }
+
+.avatar-badge {
+  position: relative;
+  font-size: 2rem;
+  width: fit-content;
+}
+
 .badge {
   border-radius: 50%;
   border: 2px solid var(--white);
