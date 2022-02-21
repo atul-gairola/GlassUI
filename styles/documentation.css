@@ -137,3 +137,11 @@ header {
   margin-bottom: 1.25rem;
   justify-content: center;
 }
+
+.buttons-example-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,118 @@
+.btn {
+  cursor: pointer;
+  border-radius: var(--border-rds);
+  padding: 10px 1.25rem;
+  border: none;
+  font-size: 1rem;
+  transition: 0.7s;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-primary {
+  background: var(--primary);
+  border: 2px solid var(--primary);
+  color: var(--white);
+}
+
+.btn-danger {
+  background: var(--danger);
+  border: 2px solid var(--danger);
+  color: var(--white);
+}
+
+.btn-info {
+  background: var(--info);
+  border: 2px solid var(--info);
+  color: var(--white);
+}
+
+.btn-warning {
+  background: var(--warning);
+  border: 2px solid var(--warning);
+  color: var(--white);
+}
+
+.btn-success {
+  background: var(--success);
+  border: 2px solid var(--success);
+  color: var(--white);
+}
+
+.btn-glass {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  color: var(--black);
+}
+
+.btn-outlined {
+  background: transparent;
+}
+
+.btn-outlined.btn-primary {
+  color: var(--primary);
+}
+
+.btn-outlined.btn-danger {
+  color: var(--danger);
+}
+
+.btn-outlined.btn-info {
+  color: var(--info);
+}
+
+.btn-outlined.btn-success {
+  color: var(--success);
+}
+
+.btn-outlined.btn-warning {
+  color: var(--warning);
+}
+
+.btn-open {
+  background: transparent;
+  border: none;
+}
+
+.btn-open.btn-primary {
+  color: var(--primary);
+}
+
+.btn-open.btn-danger {
+  color: var(--danger);
+}
+
+.btn-open.btn-info {
+  color: var(--info);
+}
+
+.btn-open.btn-success {
+  color: var(--success);
+}
+
+.btn-open.btn-warning {
+  color: var(--warning);
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: var(--info);
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn:active {
+  filter: brightness(0.7);
+}
+
+.btn-float {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 1.25rem;
+}
