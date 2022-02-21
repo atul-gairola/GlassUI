@@ -1,4 +1,9 @@
 .img-fluid {
   width: 100%;
   height: auto;
+  border-radius: var(--border-rds);
+}
+
+.img-circle {
+  clip-path: circle();
 }
