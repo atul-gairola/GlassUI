@@ -15,6 +15,7 @@
   --success: #4caf50;
   --border-rds: 20px;
   --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  --grey: #696969;
 }
 
 * {
@@ -46,17 +47,4 @@ a {
   padding: 10px 20px;
   border: none;
   font-size: 1rem;
-}
-
-.btn-sml {
-  padding: 8px 25px;
-  font-size: 0.8rem;
-}
-.btn-md {
-  font-size: 1rem;
-  padding: 10px 20px;
-}
-.btn-lg {
-  padding: 15px 30px;
-  font-size: 1.2rem;
 }
