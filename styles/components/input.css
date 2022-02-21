@@ -1,0 +1,76 @@
+.input-container input {
+  border: none;
+  width: 100%;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container {
+  border: 1px solid var(--secondary);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  position: relative;
+}
+
+.input-container label {
+  position: absolute;
+  top: -0.7rem;
+  left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: #fff;
+  padding: 0 5px;
+}
+
+.input-sm {
+  padding: 8px 15px;
+}
+
+.input-container.input-sm label {
+  position: absolute;
+  top: -0.7rem;
+  left: 0.7rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: #fff;
+  padding: 0 5px;
+}
+
+.input-container.input-sm input {
+  font-size: 0.8rem;
+}
+
+.input-lg {
+  padding: 15px 20px;
+}
+
+.input-container.input-lg label {
+  position: absolute;
+  top: -0.7rem;
+  left: 1rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  background: #fff;
+  padding: 0 5px;
+}
+
+.input-container.input-lg input {
+  font-size: 1rem;
+}
+
+.input-error {
+  border: 1px solid var(--danger);
+  color: var(--danger);
+}
+
+.input-error input {
+  color: var(--danger);
+}
+
+.input-error input::placeholder {
+  color: var(--danger);
+}
+

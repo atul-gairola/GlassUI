@@ -159,3 +159,10 @@ header {
   justify-content: center;
   margin-bottom: 20px;
 }
+
+.input-example-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 20px;
+}
