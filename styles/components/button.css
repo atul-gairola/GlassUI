@@ -107,3 +107,9 @@
 .btn:active {
   filter: brightness(0.7);
 }
+
+.btn-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
