@@ -87,7 +87,7 @@ header {
 /* content */
 .content-section {
   padding: 0 100px;
-  margin-bottom: 50px;
+  margin-bottom: 130px;
 }
 
 .content-section h2 {
@@ -105,6 +105,10 @@ header {
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 2.1rem;
+}
+
+.info {
+  margin-bottom: 30px;
 }
 
 .content-section section {
