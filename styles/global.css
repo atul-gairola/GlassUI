@@ -3,18 +3,18 @@
 
 /* Global styles */
 :root {
-  --primary: #2f6ed3 !important;
-  --primary-light: #f1f7ff !important;
-  --secondary: #27374c !important;
-  --secondary-light: #5842c4 !important;
+  --primary: #2f6ed3;
+  --primary-light: #f1f7ff;
+  --secondary: #27374c;
+  --secondary-light: #5842c4;
   --black: #111111;
   --white: #fff;
   --danger: #ef5350;
   --warning: #ff9800;
   --info: #03a9f4;
   --success: #4caf50;
-  --border-rds: 20px;
-  --shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+  --border-rds: 1.25rem;
+  --shadow: 0 0.5rem 2rem 0 rgba(31, 38, 135, 0.2);
 }
 
 * {
@@ -43,20 +43,20 @@ a {
 .btn {
   cursor: pointer;
   border-radius: var(--border-rds);
-  padding: 10px 20px;
+  padding: 10px 1.25rem;
   border: none;
   font-size: 1rem;
 }
 
 .btn-sml {
-  padding: 8px 25px;
+  padding: 8px 1.563rem;
   font-size: 0.8rem;
 }
 .btn-md {
   font-size: 1rem;
-  padding: 10px 20px;
+  padding: 10px 1.25rem;
 }
 .btn-lg {
-  padding: 15px 30px;
+  padding: 15px 1.875rem;
   font-size: 1.2rem;
 }
