@@ -1,0 +1,135 @@
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  color: var(--black);
+  border-radius: var(--border-rds);
+  padding: 20px;
+  max-width: 300px;
+  position: relative;
+}
+
+.card-horizontal {
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+}
+
+.card-horizontal.card-text-only {
+  max-width: 300px;
+  display: block;
+}
+
+.card-img-container {
+  width: 100%;
+}
+
+.card-img-container img {
+  border-radius: var(--border-rds);
+  max-height: 300px;
+  position: relative;
+}
+
+.card-content {
+  margin-top: 15px;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 0.8rem;
+  -webkit-box-orient: vertical;
+  line-height: 1.3;
+  color: var(--gray-2);
+  -webkit-line-clamp: 2;
+}
+
+.card-horizontal .card-description {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 0.8rem;
+  -webkit-box-orient: vertical;
+  line-height: 1.3;
+  color: var(--gray-2);
+  -webkit-line-clamp: 7;
+}
+
+.card-text-only .card-description {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: 0.8rem;
+  -webkit-box-orient: vertical;
+  line-height: 1.3;
+  color: var(--gray-2);
+  -webkit-line-clamp: 10;
+}
+
+.card-footer {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.card-horizontal .card-footer {
+  position: absolute;
+  bottom: 30px;
+}
+
+.card-horizontal.card-text-only .card-footer {
+  position: static;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  background: rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  font-weight: 600;
+  font-size: 2rem;
+  border-radius: var(--border-rds);
+}
+
+.card-badge {
+  padding: 10px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  color: var(--black);
+  border-radius: var(--border-rds);
+  font-size: 0.8rem;
+}
+
+.card-close-button {
+  position: absolute;
+  z-index: 10;
+  top: 30px;
+  right: 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--danger);
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+  display: grid;
+  place-content: center;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
