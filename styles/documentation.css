@@ -166,3 +166,7 @@ header {
   gap: 30px;
   margin-bottom: 20px;
 }
+
+.rating-example-container {
+  margin-bottom: 20px;
+}

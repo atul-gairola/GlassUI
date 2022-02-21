@@ -1,0 +1,11 @@
+.rating {
+  display: flex;
+  gap: 10px;
+  color: var(--warning);
+}
+
+.rating input {
+  display: none;
+}
+
+
