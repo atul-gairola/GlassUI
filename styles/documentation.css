@@ -90,12 +90,12 @@ header {
   margin-bottom: 3.125rem;
 }
 
-.content-section h2 {
+.content-section > h2 {
   font-size: 2rem;
   margin-bottom: 3.125rem;
 }
 
-.content-section h3 {
+.content-section > section > h3 {
   font-size: 1.5rem;
   margin-bottom: 1.25rem;
   font-weight: 600;
@@ -168,5 +168,14 @@ header {
 }
 
 .rating-example-container {
+  margin-bottom: 20px;
+}
+
+.typography-excercise-example {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.typography-excercise-example > div {
   margin-bottom: 20px;
 }
